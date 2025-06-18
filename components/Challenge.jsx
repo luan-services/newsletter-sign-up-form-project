@@ -2,7 +2,7 @@ import React from 'react'
 
 const Challenge = () => {
   return (
-        <div className="w-full flex justify-end py-2 px-4 gap-4 md:text-white">
+        <div className="md:w-full w-100 flex justify-end py-2 px-4 gap-4 bg-white md:bg-custom-blue-700 md:text-white">
             <div className="flex text-sm">
                 <span className=""> 
                     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

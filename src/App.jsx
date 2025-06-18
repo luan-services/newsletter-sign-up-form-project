@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div  className="min-h-screen w-full font-roboto md:bg-custom-blue-700"> 
+      <div  className="min-h-screen w-full font-roboto bg-custom-blue-700"> 
         <HashRouter>
           <Routes>
             <Route path="/" element={<Home/>}/>

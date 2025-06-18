@@ -61,11 +61,11 @@ const FormCard = () => {
                 </div>
             }
             {isSubmitted &&
-                <div className="flex flex-col w-100 bg-white justify-between items-center">
+                <div className="flex flex-col w-100 bg-white justify-between items-center md:rounded-2xl">
 
                     <div className="flex flex-col gap-4 px-4 py-8">
                         <div className="flex">
-                            <img className="flex w-20" src={imgsSrc.iconSuccess} alt="Product Image" />
+                            <img className="flex w-16" src={imgsSrc.iconSuccess} alt="Product Image" />
                         </div>
                         <div className="flex">
                             <span className="font-roboto-bold text-custom-blue-800 font-black text-3xl">Thanks for subscribing!</span>
