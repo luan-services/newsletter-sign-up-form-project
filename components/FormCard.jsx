@@ -30,7 +30,7 @@ const FormCard = () => {
                     <div className="flex overflow-hidden md:order-2 ">
                         <picture>
                             <source srcSet={imgsSrc.signupDesktop} media="(min-width: 768px)" />
-                            <img className="w-108 h-64 md:w-full md:h-124 md:object-center object-cover rounded-b-xl md:rounded-2xl" src={imgsSrc.signupMobile} alt="Product Image" />
+                            <img className="w-108 h-64 md:w-full md:h-132 md:object-center object-cover rounded-b-xl md:rounded-2xl" src={imgsSrc.signupMobile} alt="Product Image" />
                         </picture>
                     </div>
 
